@@ -1,0 +1,111 @@
+/* Geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  line-height: 1.6;
+}
+
+a {
+  color: #ff6600; /* Laranja */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Cabeçalho */
+header {
+  background: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #ff6600;
+}
+
+/* Seções */
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  color: #ff6600;
+}
+
+/* Botões */
+.btn {
+  background: #ff6600;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #e65c00;
+}
+
+/* Formulário */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background: #ff6600;
+  color: #fff;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #e65c00;
+}
+
+/* Rodapé */
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
